@@ -1,3 +1,3 @@
 export const someF = () => {
-  console.log("first");
+  console.log("first, but with nodemon!");
 };
