@@ -1,4 +1,12 @@
-import { someF } from "./utils/func";
+// import { someF } from "./utils/func";
+// someF();
 
-console.log("Hello World");
-someF();
+import { asyncFs } from "./utils/fsMod/fsAsync";
+import { fsSyncFunc } from "./utils/fsMod/fsSync";
+import pathMod from "./utils/pathMod";
+
+// pathMod();
+fsSyncFunc();
+console.log("Hello App.JS");
+
+asyncFs();
